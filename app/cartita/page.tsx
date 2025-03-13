@@ -1,7 +1,7 @@
 "use client";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import { Box, Typography, Paper } from "@mui/material";
+import {  Typography, Paper } from "@mui/material";
 import { styled } from "@mui/system";
 
 // Estilos 🎀
