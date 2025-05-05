@@ -15,7 +15,7 @@ export default function Header() {
     setIsClient(true);
   }, []);
 
-  if (!isClient) return null; // Evitar Hydration Mismatch
+  if (!isClient) return null; 
 
   return (
     <Box

@@ -1,14 +1,13 @@
 "use client";
 import { Box, Typography } from "@mui/material";
-import Header from "@/components/Header"; // Importamos el Header
+import Header from "@/components/Header"; 
 import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <>
-      <Header /> {/* Menú de navegación extraído como componente */}
+      <Header /> 
 
-      {/* Mensaje de cumpleaños */}
       <Box sx={{ marginTop: "1rem" }}>
         <Typography variant="h5" sx={{ fontWeight: "bold", color: "purple", marginBottom: "0.5rem" }}>
           ✨ ¡Feliz cumpleaños, amor! ✨

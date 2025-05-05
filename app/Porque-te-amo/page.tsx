@@ -4,7 +4,7 @@ import { styled } from "@mui/system";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
-// Estilos personalizados con tintes de Hello Kitty 🎀
+// Estilos personalizados con tintes de Hello Kitty 
 const Contenedor = styled(Paper)({
   padding: "2rem",
   background: "linear-gradient(to bottom, #ffd1dc, #fff)",

@@ -5,7 +5,7 @@ import Image from "next/image";
 import { styled } from "@mui/system";
 import Footer from "@/components/Footer";
 
-// 💖 Estilos personalizados para las cajitas
+//  Estilos personalizados para las cajitas
 const FotoCaja = styled(Paper)({
   backgroundColor: "#ffe4e1", // Color rosado suave
   borderRadius: "15px",

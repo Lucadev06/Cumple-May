@@ -4,10 +4,10 @@ import Header from "@/components/Header";
 import {  Typography, Paper } from "@mui/material";
 import { styled } from "@mui/system";
 
-// Estilos 🎀
+
 const Contenedor = styled(Paper)({
   padding: "2rem",
-  backgroundColor: "#ffe4e1", // Fondo rosado suave (Hello Kitty vibes 💖)
+  backgroundColor: "#ffe4e1", 
   borderRadius: "20px",
   boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
   textAlign: "center",
@@ -17,10 +17,10 @@ const Contenedor = styled(Paper)({
 });
 
 const Carta = styled(Typography)({
-  fontFamily: "'Dancing Script', cursive", // Fuente manuscrita para efecto de carta ✨
+  fontFamily: "'Dancing Script', cursive", 
   fontSize: "1.2rem",
   fontStyle: "italic",
-  color: "#ff69b4", // Rosado Hello Kitty 💖
+  color: "#ff69b4", 
   textAlign: "justify",
 });
 
